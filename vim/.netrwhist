@@ -1,4 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/jay/.rvm/gems/ruby-1.9.2-p180@goodguide/cache/bundler/git/goodguide-accounts-9121467cc68036a283c6c13f8bcb966fb3449ffe'
-let g:netrw_dirhist_2='/home/jay/src/back'

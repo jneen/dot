@@ -3,3 +3,6 @@
 
 # misc.
 tmp/
+
+# this is live, so ignore vim's tmp files
+vim/.netrwhist
