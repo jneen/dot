@@ -1,0 +1,27 @@
+[core]
+  editor = gvim -v
+[user]
+  name = Jay Adkisson
+  email = jjmadkisson@gmail.com
+[github]
+  user = jayferd
+  token = "ee14fce5546288e00fc0d6dc456fb3ec"
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[alias]
+  co = checkout
+  up = checkout
+  update = checkout
+
+  ci = commit -v
+  st = status
+  br = branch
+
+  fancy = log --all --decorate --graph --date=local
+  fn = log --all --decorate --graph --date=local
+
+  # last commit
+  lc = log -p -1

@@ -1,0 +1,12 @@
+# ~/.tmuxinator/tmuxinator.yml
+# you can make as many tabs as you wish...
+
+project_name: tmuxinator
+project_root: /home/jay/src/tmuxinator
+tabs:
+  - shell:
+      panes:
+        - gvim -v
+        - git status
+        -
+      layout: main-vertical

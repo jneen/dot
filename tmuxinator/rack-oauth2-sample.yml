@@ -1,0 +1,11 @@
+# ~/.tmuxinator/rack-oauth2-sample.yml
+# you can make as many tabs as you wish...
+
+project_name: rack-oauth2-sample
+project_root: /home/jay/src/rack-oauth2-sample
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - #empty, will just run plain bash

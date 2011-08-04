@@ -1,0 +1,7 @@
+# ~/.tmuxinator/dolt.yml
+# you can make as many tabs as you wish...
+
+project_name: dolt
+project_root: /home/jay/src/dolt
+tabs:
+  - dolt:

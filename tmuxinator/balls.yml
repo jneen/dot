@@ -1,0 +1,7 @@
+# ~/.tmuxinator/balls.yml
+# you can make as many tabs as you wish...
+
+project_name: balls
+project_root: /home/jay/src/balls
+tabs:
+  - shell:

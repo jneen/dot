@@ -1,0 +1,12 @@
+# ~/.tmuxinator/tweet.yml
+# you can make as many tabs as you wish...
+
+project_name: tweet
+project_root: /home/jay/src/tweet
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - git status
+        - . lib/tweet.sh

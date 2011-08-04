@@ -1,0 +1,14 @@
+# ~/.tmuxinator/Ranger.yml
+# you can make as many tabs as you wish...
+
+project_name: Ranger
+project_root: ~/src/Ranger
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - rails console
+        - git status
+  - server: rails server
+  - logs: tail -f log/development.log

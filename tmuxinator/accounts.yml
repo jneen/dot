@@ -1,0 +1,17 @@
+# ~/.tmuxinator/accounts.yml
+# you can make as many tabs as you wish...
+
+project_name: accounts
+project_root: /home/jay/src/accounts
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - git status
+        - ripl rails
+  - server:
+      layout: even-horizontal
+      panes:
+        - rails server
+        - '>tmp/debug.log && tail -f tmp/debug.log'

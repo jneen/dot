@@ -1,0 +1,12 @@
+# ~/.tmuxinator/bss.yml
+# you can make as many tabs as you wish...
+
+project_name: bss
+project_root: /home/jay/src/bss
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - git status
+        - #

@@ -1,0 +1,12 @@
+# ~/.tmuxinator/iplogic.yml
+# you can make as many tabs as you wish...
+
+project_name: iplogic
+project_root: ~/src/iplogic
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - irb -r lib/iplogic
+        - git status

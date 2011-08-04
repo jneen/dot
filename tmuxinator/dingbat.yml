@@ -1,0 +1,17 @@
+# ~/.tmuxinator/dingbat.yml
+# you can make as many tabs as you wish...
+
+project_name: dingbat
+project_root: ~/src/dingbat
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - hg st
+        - ripl rails
+  - server: 
+      layout: even-horizontal
+      panes:
+        - passenger start
+        - '>tmp/debug.log && tail -f tmp/debug.log'

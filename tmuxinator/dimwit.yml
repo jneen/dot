@@ -1,0 +1,12 @@
+# ~/.tmuxinator/dimwit.yml
+# you can make as many tabs as you wish...
+
+project_name: dimwit
+project_root: /home/jay/src/dimwit
+tabs:
+  - main: 
+      panes: 
+        - vim
+        - ls
+      layout: main-vertical
+  - server: ./script/server

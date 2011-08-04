@@ -1,0 +1,8 @@
+# ~/.tmuxinator/lolgebra.yml
+# you can make as many tabs as you wish...
+
+project_name: lolgebra
+project_root: /home/jay/src/lolgebra
+tabs:
+  - editor: vim
+  - server: coffee app.coffee

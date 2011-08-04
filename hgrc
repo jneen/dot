@@ -1,0 +1,18 @@
+[ui]
+username = Jay Adkisson <jay@goodguide.com>
+[extensions]
+hgext.record =
+color =
+hgshelve = ~/.hg/hgshelve/hgshelve.py
+hgstage = ~/.hg/hgstage/hgstage.py
+hggit = ~/.hg/hg-git/hggit
+rebase =
+pager =
+purge =
+extdiff =
+[color]
+mode = ansi
+[pager]
+pager = less -FRXn
+[extdiff]
+cmd.vimdiff =

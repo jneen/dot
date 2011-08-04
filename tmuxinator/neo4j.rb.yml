@@ -1,0 +1,12 @@
+# ~/.tmuxinator/neo4j.rb.yml
+# you can make as many tabs as you wish...
+
+project_name: neo4jrb
+project_root: /home/jay/src/neo4j.rb
+tabs:
+  - neo4j:
+      layout: main-vertical
+      panes:
+        - vim
+        - git status
+        - irb -r lib/neo4j

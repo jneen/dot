@@ -1,0 +1,17 @@
+# ~/.tmuxinator/daisy.yml
+# you can make as many tabs as you wish...
+
+project_name: daisy
+project_root: /home/jay/src/daisy
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - ripl rails
+        - top
+  - server: 
+      layout: even-vertical
+      panes:
+        - rails s
+        - 'mkdir -p tmp && touch tmp/debug.log && tail -f tmp/debug.log'

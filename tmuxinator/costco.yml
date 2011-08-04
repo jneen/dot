@@ -1,0 +1,12 @@
+# ~/.tmuxinator/costco.yml
+# you can make as many tabs as you wish...
+
+project_name: costco
+project_root: /home/jay/src/costco
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - rails console
+        - hg st

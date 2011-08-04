@@ -1,0 +1,7 @@
+# ~/.tmuxinator/vio.yml
+# you can make as many tabs as you wish...
+
+project_name: vio
+project_root: ~/src/vio
+tabs:
+  - editor: vim

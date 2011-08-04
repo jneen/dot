@@ -1,0 +1,54 @@
+#sic settings... self explainatory
+nethack on
+deflogin on
+autodetach on
+startup_message off
+
+# the dash makes it a login shell
+defshell -bash
+activity "specimen-%n attacks!"
+bell_msg ""
+vbell off
+vbell_msg ""
+defscrollback 100000
+termcapinfo xterm* ti@:te@
+nonblock on
+defflow off
+msgwait 1
+altscreen on
+
+# bold text as green only
+#attrcolor b "-b g"
+
+# only Shift+k to kill - prevent accidents
+bind k
+bind ^k
+bind K kill
+
+# rebind control character to be ^t instead of ^a
+escape ^oo
+
+# use standard term settings and save the layout
+#term vt100
+
+# focus and resizing vi-like bindings
+bind K eval "focus top"
+bind k eval "focus up"
+bind j eval "focus down"
+bind J eval "focus bottom"
+bind e eval "resize +75"
+bind E eval "resize +25"
+bind t eval "resize -75"
+bind T eval "resize -25"
+bind r eval "resize ="
+
+hardstatus alwayslastline
+hardstatus string '%{= kg}[ %{w}%H %{kg}][%= %{kw}%?%-Lw%?%{r}(%{W}%n*%f %t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{kg}][%{B}%Y-%m-%d %{W}%c %{g}]'
+
+# #default screens
+# screen "$SHELL"
+# title ">>"
+# screen "$SHELL"
+# title "git"
+# screen bash
+# title "spec"

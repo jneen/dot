@@ -1,0 +1,17 @@
+# ~/.tmuxinator/goodguide.yml
+# you can make as many tabs as you wish...
+
+project_name: goodguide
+project_root: /home/jay/src/goodguide
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - git status
+        - rails console
+  - server:
+      layout: even-horizontal
+      panes:
+        - rails server
+        - 'touch tmp/debug.log && tail -f tmp/debug.log'
