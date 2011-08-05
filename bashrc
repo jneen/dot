@@ -15,8 +15,8 @@ set -o vi
 alias view="vim -R"
 
 #ascii buddha
-alias buddhasay="cowsay -f /usr/share/cowsay/cows/buddha.cow -e'--'"
-alias buddhathink="cowthink -f /usr/share/cowsay/cows/buddha.cow -e'--'"
+alias buddhasay="cowsay -f ~/.cows/buddha.cow -e'--'"
+alias buddhathink="cowthink -f ~/.cows/buddha.cow -e'--'"
 
 export TERM="xterm-256color"
 

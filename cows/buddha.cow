@@ -1,0 +1,13 @@
+# vim: syntax=perl
+
+$left_eye = substr($eyes, 0, 1);
+$right_eye = substr($eyes, 1, 1);
+
+$the_cow = <<"EOC";
+  $thoughts
+    \\*/
+    3^v
+   ($left_eye*$right_eye)
+  .(   ).
+  (__/__)
+EOC
