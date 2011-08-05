@@ -1,5 +1,6 @@
 [core]
   editor = gvim -v
+  excludesfile = ~/.gitignore
 [user]
   name = Jay Adkisson
   email = jjmadkisson@gmail.com
