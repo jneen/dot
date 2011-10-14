@@ -1,2 +1,5 @@
 # vim
 .*.sw[a-z]
+
+# rubinius
+*.rbc

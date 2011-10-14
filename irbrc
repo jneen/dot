@@ -1,3 +1,7 @@
+if defined?(::Bundler)
+  $:.concat Dir.glob(File.expand_path('gems/*/lib', ENV['rvm_ruby_global_gems_path']))
+end
+
 begin
   begin # ANSI codes
     module Colors
@@ -100,31 +104,18 @@ begin
 
     Ripl::Shell.send(:include, JaysCustomFormatter)
 
-    def ripl_module(name)
-      require "ripl/#{name}"
-      yield if block_given?
-    rescue LoadError
-      $stderr.puts "could not find #{name}"
-    end
+    Ripl.config[:multi_line_prompt] = ' | '
 
-    ripl_module :multi_line do
-      Ripl.config[:multi_line_prompt] = ' | '
-    end
-
-    ripl_module :auto_indent
-
-    ripl_module :color_result do
-      require 'logger'
-      require 'awesome_print'
-      Ripl.config[:color_result_engine] = :ap
-      Ripl.config[:color_result_ap_options] = {
-        :index => false,
-        :indent => 2,
-        :color => {
-          :symbol => :purple
-        }
+    require 'logger'
+    require 'awesome_print'
+    Ripl.config[:color_result_engine] = :ap
+    Ripl.config[:color_result_ap_options] = {
+      :index => false,
+      :indent => 2,
+      :color => {
+        :symbol => :purple
       }
-    end
+    }
 
   end
 
@@ -184,7 +175,7 @@ begin
       include Comparable
       def <=>(other)
         self.to_s <=> other.to_s
-      end
+      end unless :a.respond_to?(:<=>)
     end
 
     class Fixnum

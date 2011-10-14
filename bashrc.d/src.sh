@@ -1,5 +1,5 @@
 #!/bin/bash
-export SRC_DIR="${SRC_DIR:-~/src}"
+export SRC_DIR="$HOME/src"
 
 src() {
   local multiplexer name
@@ -22,10 +22,10 @@ src() {
     fi
   done
 
-  cd "$SRC_DIR"
+  cd $SRC_DIR
 
   if [[ -n "$name" ]]; then
-    dir="$(find "$SRC_DIR" \
+    dir="$(find $SRC_DIR \
       -maxdepth 1 \
       -mindepth 1 \
       -name "$name*" \

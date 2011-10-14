@@ -1,7 +1,8 @@
 call pathogen#runtime_append_all_bundles()
 syntax on
 
-autocmd BufNewFile,BufRead *.py set shiftwidth=4 tabstop=4 softtabstop=4
+autocmd BufNewFile,BufRead *.py  set shiftwidth=4 tabstop=4 softtabstop=4
+" autocmd BufNewFile,BufRead *.tcl set shiftwidth=4 tabstop=4 softtabstop=4
 
 set autoindent expandtab shiftwidth=2 tabstop=2 softtabstop=2
 

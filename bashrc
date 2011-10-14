@@ -1,12 +1,3 @@
-set-ps1-colors() {
-  # Bash colors!
-  SET_ERR_COLOR='\[\e[1;3$(($??1:7))m\]'
-  SET_DIR_COLOR='\[\e[1;34m\]'
-  SET_PROMPT_COLOR='\[\e[1;32m\]'
-  CLEAR_COLOR='\[\e[0;38m\]'
-  PS1="${SET_ERR_COLOR}[${SET_PROMPT_COLOR} \u@\h ${SET_DIR_COLOR}\W ${SET_ERR_COLOR}] \$ ${CLEAR_COLOR}"
-}
-set-ps1-colors
 
 #vi mode!
 set -o vi

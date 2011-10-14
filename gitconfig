@@ -5,7 +5,7 @@
   name = Jay Adkisson
   email = jjmadkisson@gmail.com
 [github]
-  user = jayferd
+	user = jayferd
   token = "ee14fce5546288e00fc0d6dc456fb3ec"
 [color]
   branch = auto
@@ -18,8 +18,21 @@
   update = checkout
 
   ci = commit -v
+  c  = commit -v
+
   st = status
+  s  = status
+
   br = branch
+  d = diff
+
+  a  = add
+  ap = add -p
+
+  ps = push
+  pl = pull
+
+  sh = stash
 
   fancy = log --all --decorate --graph --date=local
   fn = log --all --decorate --graph --date=local
