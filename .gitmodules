@@ -1,0 +1,36 @@
+[submodule "vim/bundle/convore.vim"]
+	path = vim/bundle/convore.vim
+	url = git@github.com:jayferd/dot
+[submodule "vim/bundle/jekyll.vim"]
+	path = vim/bundle/jekyll.vim
+	url = git@github.com:jayferd/dot
+[submodule "vim/bundle/ragel.vim"]
+	path = vim/bundle/ragel.vim
+	url = git@github.com:jayferd/ragel.vim
+[submodule "vim/bundle/vim-actionscript"]
+	path = vim/bundle/vim-actionscript
+	url = git@github.com:jayferd/dot
+[submodule "vim/bundle/vim-coffee-script"]
+	path = vim/bundle/vim-coffee-script
+	url = git@github.com:jayferd/dot
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive
+[submodule "vim/bundle/vim-haml"]
+	path = vim/bundle/vim-haml
+	url = git://github.com/tpope/vim-haml
+[submodule "vim/bundle/vim-jquery"]
+	path = vim/bundle/vim-jquery
+	url = https://github.com/itspriddle/vim-jquery
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = git://github.com/plasticboy/vim-markdown
+[submodule "vim/bundle/vim-rails"]
+	path = vim/bundle/vim-rails
+	url = git://github.com/tpope/vim-rails
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround
