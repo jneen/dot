@@ -1,6 +1,8 @@
 call pathogen#runtime_append_all_bundles()
 syntax on
 
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+
 autocmd BufNewFile,BufRead *.py  set shiftwidth=4 tabstop=4 softtabstop=4
 " autocmd BufNewFile,BufRead *.tcl set shiftwidth=4 tabstop=4 softtabstop=4
 
