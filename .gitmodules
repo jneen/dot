@@ -1,18 +1,12 @@
-[submodule "vim/bundle/convore.vim"]
-	path = vim/bundle/convore.vim
-	url = git@github.com:jayferd/dot
 [submodule "vim/bundle/jekyll.vim"]
 	path = vim/bundle/jekyll.vim
-	url = git@github.com:jayferd/dot
+	url = git://github.com/csexton/jekyll.vim
 [submodule "vim/bundle/ragel.vim"]
 	path = vim/bundle/ragel.vim
 	url = git@github.com:jayferd/ragel.vim
-[submodule "vim/bundle/vim-actionscript"]
-	path = vim/bundle/vim-actionscript
-	url = git@github.com:jayferd/dot
 [submodule "vim/bundle/vim-coffee-script"]
 	path = vim/bundle/vim-coffee-script
-	url = git@github.com:jayferd/dot
+	url = git://github.com/kchmck/vim-coffee-script
 [submodule "vim/bundle/vim-colors-solarized"]
 	path = vim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized
