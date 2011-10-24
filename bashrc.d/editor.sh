@@ -4,3 +4,7 @@ if type gvim 2>/dev/null >/dev/null; then
   alias vi='gvim -v'
   alias vim='gvim -v'
 fi
+
+edit() {
+  $EDITOR "$@"
+}
