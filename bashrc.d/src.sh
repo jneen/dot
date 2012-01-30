@@ -25,7 +25,7 @@ src() {
   cd $SRC_DIR
 
   if [[ -n "$name" ]]; then
-    dir="$(find $SRC_DIR \
+    dir="$(find $SRC_DIR/ \
       -maxdepth 1 \
       -mindepth 1 \
       -name "$name*" \
