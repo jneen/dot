@@ -12,6 +12,8 @@
   diff = auto
   interactive = auto
   status = auto
+[merge]
+  defaultToUpstream = true
 [alias]
   co = checkout
   up = checkout
@@ -25,14 +27,19 @@
 
   br = branch
   d = diff
+  dc = diff --cached
 
   a  = add
   ap = add -p
+  ae = add -e
 
   ps = push
   pl = pull
 
   sh = stash
+
+  ff = merge --ff-only
+  rr = rebase origin
 
   fancy = log --all --decorate --graph --date=local
   fn = log --all --decorate --graph --date=local
