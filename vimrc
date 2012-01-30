@@ -59,6 +59,7 @@ nmap <Leader>c :Gcommit -v<CR>
 nmap <Leader>a :Gcommit -av<CR>
 nmap <Leader>d :Gdiff<CR>
 nmap <Leader>f :CommandTFlush<CR>
+nmap <Leader>C :CoffeeCompile<CR>
 
 nmap <C-t> :tabnew<CR>
 nmap <C-Tab> :tabnext<CR>
